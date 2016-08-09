@@ -13,7 +13,8 @@ var xcode = require('xcode'),
     throw new Error('This plugin expects the ios platform to exist.');
   }
 
-  var iosFolder = context.opts.cordova.project ? context.opts.cordova.project.root : path.join(context.opts.projectRoot, 'platforms/ios/');
+  var iosPlatform = path.join(context.opts.projectRoot, 'platforms/ios/');
+  var iosFolder = fs.existsSync(iosPlatform) ? iosPlatform : context.opts.projectRoot; 
   console.error("iosFolder: " + iosFolder);
 
   fs.readdir(iosFolder, function (err, data) {
