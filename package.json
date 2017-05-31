@@ -1,7 +1,7 @@
 {
   "name": "FilePicker",
   "version": "1.2.2",
-  "description": "\n    This plugin makes possible to pick files from iCloud or other document providers\n  ",
+  "description": "This plugin makes possible to pick files from iCloud or other document providers",
   "cordova": {
     "id": "com.jcesarmobile.filepicker",
     "platforms": [
