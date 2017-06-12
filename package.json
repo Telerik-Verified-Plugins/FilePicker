@@ -1,0 +1,31 @@
+{
+  "name": "FilePicker",
+  "version": "1.2.2",
+  "description": "This plugin makes possible to pick files from iCloud or other document providers",
+  "cordova": {
+    "id": "com.jcesarmobile.filepicker",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Telerik-Verified-Plugins/FilePicker.git"
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-ios"
+  ],
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.0.0"
+    }
+  ],
+  "author": "jcesarmobile",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Telerik-Verified-Plugins/FilePicker/issues"
+  },
+  "homepage": "https://github.com/Telerik-Verified-Plugins/FilePicker#readme"
+}
